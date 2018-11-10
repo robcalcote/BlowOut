@@ -1,5 +1,6 @@
-﻿@{
-    ViewBag.Title = "Trumpet";
+﻿
+@{
+    ViewBag.Title = "Saxophone";
 }
 
 <head>
@@ -9,13 +10,13 @@
 
 <body class="body-instruments">
     <div class="jumbotron" style="text-align:center">
-        <h2>Our Trumpet Rental Rates</h2>
+        <h2>Our Saxophone Rental Rates</h2>
         <p class="lead">
             Please click an option to see our rates:
         </p>
 
-        @Html.ActionLink("New", "TrumpetNew", null, new { @class = "btn blue-button glyphicon" })
-        @Html.ActionLink("Used", "TrumpetUsed", null, new { @class = "btn blue-button glyphicon" })
+        @Html.ActionLink("New", "SaxophoneNew", null, new { @class = "btn blue-button glyphicon" })
+        @Html.ActionLink("Used", "SaxophoneUsed", null, new { @class = "btn blue-button glyphicon" })
         <br />
         <br />
         <p class="lead">@ViewBag.Rates</p>
@@ -25,7 +26,7 @@
     </div>
 
     <div class="col-md-4">
-        <img src="~/Images/Trumpet.jpg" style="max-width:100%" />
+        <img src="~/Images/Saxophone.jpg" style="max-width:100%" />
     </div>
 
     <div class="row">

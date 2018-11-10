@@ -21,7 +21,7 @@ namespace BlowOut.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Learn more about our company below!";
 
             return View();
         }
@@ -61,6 +61,7 @@ namespace BlowOut.Controllers
             return View("Trumpet");
         }
 
+        //TROMBONE
         public ActionResult Trombone()
         {
             return View();
@@ -71,35 +72,103 @@ namespace BlowOut.Controllers
             " If you return it at any time within the first three months, there will be a $200 re-stocking fee." +
             " If you return it after three months, you forfeit any equity in the instrument.";
             ViewBag.Rates = "$60 a month";
-            return View("Trumpet");
+            return View("Trombone");
         }
         public ActionResult TromboneUsed()
         {
             ViewBag.Notice = "***Please keep in mind that once the 18 months of rental history has been reached, you will own the instrument." +
             " If you return it at any time within the first three months, there will be a $200 re-stocking fee." +
             " If you return it after three months, you forfeit any equity in the instrument.";
-            ViewBag.Rates = "$25 a month";
-            return View("Trumpet");
+            ViewBag.Rates = "$35 a month";
+            return View("Trombone");
         }
 
+        //TUBA
         public ActionResult Tuba()
         {
             return View();
         }
+        public ActionResult TubaNew()
+        {
+            ViewBag.Notice = "***Please keep in mind that once the 18 months of rental history has been reached, you will own the instrument." +
+            " If you return it at any time within the first three months, there will be a $200 re-stocking fee." +
+            " If you return it after three months, you forfeit any equity in the instrument.";
+            ViewBag.Rates = "$70 a month";
+            return View("Tuba");
+        }
+        public ActionResult TubaUsed()
+        {
+            ViewBag.Notice = "***Please keep in mind that once the 18 months of rental history has been reached, you will own the instrument." +
+            " If you return it at any time within the first three months, there will be a $200 re-stocking fee." +
+            " If you return it after three months, you forfeit any equity in the instrument.";
+            ViewBag.Rates = "$50 a month";
+            return View("Tuba");
+        }
 
+        //FLUTE
         public ActionResult Flute()
         {
             return View();
         }
+        public ActionResult FluteNew()
+        {
+            ViewBag.Notice = "***Please keep in mind that once the 18 months of rental history has been reached, you will own the instrument." +
+            " If you return it at any time within the first three months, there will be a $200 re-stocking fee." +
+            " If you return it after three months, you forfeit any equity in the instrument.";
+            ViewBag.Rates = "$40 a month";
+            return View("Flute");
+        }
+        public ActionResult FluteUsed()
+        {
+            ViewBag.Notice = "***Please keep in mind that once the 18 months of rental history has been reached, you will own the instrument." +
+            " If you return it at any time within the first three months, there will be a $200 re-stocking fee." +
+            " If you return it after three months, you forfeit any equity in the instrument.";
+            ViewBag.Rates = "$25 a month";
+            return View("Flute");
+        }
 
+        //CLARINET
         public ActionResult Clarinet()
         {
             return View();
         }
+        public ActionResult ClarinetNew()
+        {
+            ViewBag.Notice = "***Please keep in mind that once the 18 months of rental history has been reached, you will own the instrument." +
+            " If you return it at any time within the first three months, there will be a $200 re-stocking fee." +
+            " If you return it after three months, you forfeit any equity in the instrument.";
+            ViewBag.Rates = "$35 a month";
+            return View("Clarinet");
+        }
+        public ActionResult ClarinetUsed()
+        {
+            ViewBag.Notice = "***Please keep in mind that once the 18 months of rental history has been reached, you will own the instrument." +
+            " If you return it at any time within the first three months, there will be a $200 re-stocking fee." +
+            " If you return it after three months, you forfeit any equity in the instrument.";
+            ViewBag.Rates = "$27 a month";
+            return View("Clarinet");
+        }
 
+        //SAXOPHONE
         public ActionResult Saxophone()
         {
             return View();
+        }
+        public ActionResult SaxophoneNew()
+        {
+            ViewBag.Notice = "***Please keep in mind that once the 18 months of rental history has been reached, you will own the instrument." +
+            " If you return it at any time within the first three months, there will be a $200 re-stocking fee." +
+            " If you return it after three months, you forfeit any equity in the instrument.";
+            ViewBag.Rates = "$42 a month";
+            return View("Saxophone");
+        }
+        public ActionResult SaxophoneUsed()
+        {
+            ViewBag.Notice = "***Please keep in mind that once the 18 months of rental history has been reached, you will own the instrument." +
+            " If you return it at any time within the first three months, there will be a $200 re-stocking fee." +
+            " If you return it after three months, you forfeit any equity in the instrument.";
+            ViewBag.Rates = "$30 a month";
+            return View("Saxophone");
         }
     }
 }
