@@ -1,7 +1,28 @@
 ﻿@{
     ViewBag.Title = "About";
 }
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="~/Content/Main.css" />
+</head>
 
-<p>Use this area to provide additional information.</p>
+<body class="body-aboutus">
+    <div class="jumbotron">
+        <h2>About BlowOut Instrument Rentals</h2>
+        <p class="lead">
+            @ViewBag.Message<br />
+        </p>
+        <p class="lead">
+            Founded in 2007 by a couple of college friends, BlowOut instruments always seeks to blow our competition out of the water!
+        </p>
+        <p>We excel in the following ways:</p>
+        <ul>
+            <li>Top quality for rentals</li>
+            <li>Unique business model of Rent-to-Own</li>
+            <li>Most competitive rates in Utah Valley</li>
+            <li>We treat you like family</li>
+        </ul>
+        <br />
+        <p><a href="~/Home/Index" class="btn btn-primary btn-lg blue-button">Return Home &raquo;</a></p>
+    </div>
+</body>

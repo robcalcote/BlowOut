@@ -22,6 +22,12 @@
     background-size: cover;
 }
 
+.body-aboutus {
+    background-image: url(../Images/AboutUs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .white-bg {
     background: #eee !important;
     border-radius: 5px;
