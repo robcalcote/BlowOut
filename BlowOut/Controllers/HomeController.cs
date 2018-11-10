@@ -16,6 +16,8 @@ namespace BlowOut.Controllers
 
         public ActionResult Rentals()
         {
+            ViewBag.Rentals = "We offer only the highest quality rentals, both new and used are typically available. Please see look below for a list of the instruments that we rent.";
+
             return View();
         }
 
