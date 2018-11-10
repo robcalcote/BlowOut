@@ -1,17 +1,62 @@
 ﻿@{
     ViewBag.Title = "Contact";
 }
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
+
+<body class="body-contact">
+    <div class="jumbotron" style="text-align:center">
+        <h1>Contact Us</h1>
+        <p class="lead">
+            @ViewBag.Message<br />
+            @ViewBag.VoiceMail<br />
+            @ViewBag.Email
+        </p>
+        <p><a href="~/Home/Index" class="btn btn-primary btn-lg blue-button">Return Home &raquo;</a></p>
+    </div>
+
+    <div class="row">
+        <!-- Link to Rentals-->
+        <div class="col-md-4 bg-light text-dark" style="text-align:center">
+            <h2 class="white-bg">Address</h2>
+            <p class="white-bg">
+                TNRB, Brigham Young University<br />
+                Provo, UT 84602<br />
+            </p>
+        </div>
+        <!-- Link to About -->
+        <div class="col-md-4 bg-light text-dark" style="text-align:center">
+            <h2 class="white-bg">Phone Number</h2>
+            <p class="white-bg">
+                <abbr title="Daytime Number">Day:</abbr>
+                385-375-2000<br />
+                <abbr title="After 8pm Number">Evening:</abbr>
+                385-375-1000
+            </p>
+        </div>
+        <!-- Link to Contact -->
+        <div class="col-md-4 bg-light text-dark" style="text-align:center">
+            <h2 class="white-bg">Email</h2>
+            <p class="white-bg">
+                <strong>Rentals:</strong>   <a href="mailto:rentals@blowout.com">rentals@blowout.com</a><br />
+                <strong>Service:</strong> <a href="mailto:service@blowout.com">service@blowout.com</a>
+            </p>
+        </div>
+    </div>
+</body-content>
+
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="~/Content/Main.css" />
+</head>
+
+<h2></h2>
+<h3></h3>
+<h3></h3>
+<h3></h3>
 
 <address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
-    <abbr title="Phone">P:</abbr>
-    425.555.0100
+
 </address>
 
 <address>
-    <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
+    
 </address>

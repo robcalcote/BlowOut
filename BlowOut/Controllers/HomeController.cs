@@ -13,6 +13,11 @@ namespace BlowOut.Controllers
             return View();
         }
 
+        public ActionResult Rentals()
+        {
+            return View();
+        }
+
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
@@ -22,7 +27,9 @@ namespace BlowOut.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Please contact us by one of the following methods.";
+            ViewBag.VoiceMail = "If we don't answer the phone, leave a brief message and we'll get back to you as soon as we can.";
+            ViewBag.Email = "If you send us an email, we promise to get back to you no later than 2 business days.";
 
             return View();
         }

@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="~/Content/Main.css" />
 </head>
 
-<body background="~/Content/Images/Instruments.png">
+<body class="body-landing">
     <div class="jumbotron" style="text-align:center">
         <h1>Welcome to Blow Out!</h1>
         <p>We blow our competitors out of the water</p>
@@ -16,45 +16,49 @@
             You can rent both new and used instruments.<br />
             Click the link below to start renting today!
         </p>
-        <p><a href="https://asp.net" class="btn btn-primary btn-lg">Rent Instruments Now &raquo;</a></p>
+        <p><a href="https://asp.net" class="btn btn-primary btn-lg blue-button">Rent Instruments Now &raquo;</a></p>
     </div>
 
     <br />
     <div class="row">
         <div class="col-md-12">
-            <p class="lead">
-                "It's easy to play any musical instrument:
+            <p class="lead white-bg text-center">
+                "It's easy to play any musical instrument:<br/>
                 all you have to do is touch the right key at the right time and the instrument will play itself”.<br />
                 - Johann Sebastian Bach
             </p>
         </div>
     </div>
 
+
     <div class="row">
-        <div class="col-md-1" style="text-align:center">
-        </div>
-        <div class="col-md-3" style="text-align:center">
-            <h2>Getting started</h2>
-            <p>
-                ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-                enables a clean separation of concerns and gives you full control over markup
-                for enjoyable, agile development.
+        <!-- Link to Rentals-->
+        <div class="col-md-4 bg-light text-dark" style="text-align:center">
+            <h2 class="white-bg">Premium Rentals</h2>
+            <p class="white-bg">
+                Whether you are renting for the long-term or just a short period, we commit to giving you the best service anywhere. 
+                We guarantee you will love the quality of instruments we provide.
             </p>
-            <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+            <p><a class="btn btn-default blue-button" href="https://go.microsoft.com/fwlink/?LinkId=301865">Rent today &raquo;</a></p>
         </div>
-        <div class="col-md-3" style="text-align:center">
-            <h2>Getting started</h2>
-            <p>
-                ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-                enables a clean separation of concerns and gives you full control over markup
-                for enjoyable, agile development.
+        <!-- Link to About -->
+        <div class="col-md-4 bg-light text-dark" style="text-align:center">
+            <h2 class="white-bg">About BlowOut</h2>
+            <p class="white-bg">
+                We have been in the rental business since early 2007.
+                Our core beliefs are providing quality rentals, treating customers like family, and bringing joy to others through music.
+
             </p>
-            <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+            <p><a class="btn btn-default blue-button" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
         </div>
-        <div class="col-md-3" style="text-align:center">
-            <h2>Get more libraries</h2>
-            <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-            <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+        <!-- Link to Contact -->
+        <div class="col-md-4 bg-light text-dark" style="text-align:center">
+            <h2 class="white-bg">Contact Us</h2>
+            <p class="white-bg">
+                You can contact us by phone, email, or making an appointment with our instrument rental specialists. Whatever method you choose,
+                we would love to hear from you today!
+            </p>
+            <p><a class="btn btn-default blue-button" href="~/Home/Contact">Contact us &raquo;</a></p>
         </div>
     </div>
 </body>
