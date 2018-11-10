@@ -4,6 +4,24 @@
     background-size: cover;
 }
 
+.body-contact {
+    background-image: url(../Images/Contact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body-rentals {
+    background-image: url(../Images/Rentals.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body-instruments {
+    background-image: url(../Images/AllrentalsBackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .white-bg {
     background: #eee !important;
     border-radius: 5px;
@@ -15,10 +33,4 @@
     color: white;
     border-width: 1px;
     border-color: black;
-}
-
-.body-contact {
-    background-image: url(../Images/Contact.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }

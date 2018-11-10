@@ -165,8 +165,16 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Images\AllrentalsBackground.jpg" />
+    <Content Include="Images\Clarinet.jpg" />
     <Content Include="Images\Contact.jpg" />
+    <Content Include="Images\Flute.jpg" />
     <Content Include="Images\Instruments.jpg" />
+    <Content Include="Images\Rentals.jpg" />
+    <Content Include="Images\Saxophone.jpg" />
+    <Content Include="Images\Trombone.jpg" />
+    <Content Include="Images\Trumpet.jpg" />
+    <Content Include="Images\Tuba.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
@@ -200,6 +208,7 @@
     <Content Include="Views\Contact\Index.cshtml" />
     <Content Include="Views\Contact\Email.cshtml" />
     <Content Include="Views\Home\Rentals.cshtml" />
+    <Content Include="Views\Home\Trumpet.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

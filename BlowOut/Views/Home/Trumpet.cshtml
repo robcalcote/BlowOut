@@ -1,0 +1,48 @@
+﻿@{
+    ViewBag.Title = "Trumpet";
+}
+
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="~/Content/Main.css" />
+</head>
+
+<body class="body-instruments">
+    <div class="jumbotron" style="text-align:center">
+        <h2>Our Trumpet Rental Rates</h2>
+        <p class="lead">
+            Please click an option to see our rates:
+        </p>
+
+        @Html.ActionLink("New", "TrumpetNew", null, new { @class = "btn btn-warning glyphicon glyphicon-plus-sign" })
+        @Html.ActionLink("Used", "TrumpetUsed", null, new { @class = "btn btn-warning glyphicon glyphicon-plus-sign" })
+        <br />
+        <br />
+        <p class="lead">@ViewBag.Rates</p>
+        <br />
+        <br />
+        <p>@ViewBag.Notice</p>
+    </div>
+
+    <div class="col-md-4">
+        <img src="~/Images/Trumpet.jpg" style="max-width:100%" />
+    </div>
+
+    <div class="row">
+        <!-- Return to Rentals page -->
+        <div class="col-md-6 bg-light text-dark" style="text-align:center">
+            <p class="white-bg">
+                Want a different instrument? Click the link below to return to the rentals page.
+            </p>
+            <p><a class="btn btn-default blue-button" href="~/Home/Rentals">Back to Rentals &raquo;</a></p>
+        </div>
+
+        <!-- Return to Home page -->
+        <div class="col-md-6 bg-light text-dark" style="text-align:center">
+            <p class="white-bg">
+                Do you need something else? Click the link below to return to the home page.
+            </p>
+            <p><a class="btn btn-default blue-button" href="~/Home/Index">Back to Home &raquo;</a></p>
+        </div>
+    </div>
+</body>

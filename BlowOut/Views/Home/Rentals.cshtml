@@ -1,7 +1,55 @@
 ﻿@{
-    ViewBag.Title = "About";
+    ViewBag.Title = "Rentals";
 }
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
 
-<p>Use this area to provide additional information.</p>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="~/Content/Main.css" />
+</head>
+
+<body class="body-rentals">
+    <div class="jumbotron" style="text-align:center">
+        <h1>Contact Us</h1>
+        <p class="lead">
+            @ViewBag.Message<br />
+            @ViewBag.VoiceMail<br />
+            @ViewBag.Email
+        </p>
+        <p><a href="~/Home/Index" class="btn btn-primary btn-lg blue-button">Return Home &raquo;</a></p>
+    </div>
+
+    <div class="row">
+        <!-- Trumpet-->
+        <div class="col-md-4 bg-light text-dark" style="text-align:center">
+            <h2 class="white-bg">Trumpet</h2>
+            <p><a class="btn btn-default blue-button" href="">See our rates &raquo;</a></p>
+        </div>
+        <!-- Trombone-->
+        <div class="col-md-4 bg-light text-dark" style="text-align:center">
+            <h2 class="white-bg">Trombone</h2>
+            <p><a class="btn btn-default blue-button" href="">See our rates &raquo;</a></p>
+        </div>
+        <!-- Tuba-->
+        <div class="col-md-4 bg-light text-dark" style="text-align:center">
+            <h2 class="white-bg">Tuba</h2>
+            <p><a class="btn btn-default blue-button" href="">See our rates &raquo;</a></p>
+        </div>
+    </div>
+    <div class="row">
+        <!-- Flute-->
+        <div class="col-md-4 bg-light text-dark" style="text-align:center">
+            <h2 class="white-bg">Flute</h2>
+            <p><a class="btn btn-default blue-button" href="">See our rates &raquo;</a></p>
+        </div>
+        <!-- Clarinet-->
+        <div class="col-md-4 bg-light text-dark" style="text-align:center">
+            <h2 class="white-bg">Clarinet</h2>
+            <p><a class="btn btn-default blue-button" href="">See our rates &raquo;</a></p>
+        </div>
+        <!-- Saxophone-->
+        <div class="col-md-4 bg-light text-dark" style="text-align:center">
+            <h2 class="white-bg">Saxophone</h2>
+            <p><a class="btn btn-default blue-button" href="">See our rates &raquo;</a></p>
+        </div>
+    </div>
+</body>
